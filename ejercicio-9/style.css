@@ -1,0 +1,41 @@
+body {
+    width:100%;
+    margin:0px;
+    height: 100vh;
+    float: left;
+    font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    padding: 1em;
+    color: white;
+    float: left;
+    clear: both;
+    box-sizing: inherit;
+
+}
+
+aside {
+    background-color: #ccc;
+    padding: 1em;
+    float: left;
+    width:30%;
+    box-sizing: inherit;
+    height: 100%;
+    
+}
+
+main {
+    float: left;
+    width: 70%;
+    padding: 1em;
+    box-sizing: inherit;
+
+}
+
+.menu {
+    list-style: none;
+}
